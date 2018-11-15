@@ -46,7 +46,7 @@ a.header{
   </head>
   <body>
     
-<p class="text-center"><iframe src="//batchgeo.com/map/13c708af0e19eb8ed883c95d403986af" frameborder="0" width="100%" height="550" style="border:1px solid #aaa;"></iframe></p><p><small>View <a href="https://batchgeo.com/map/13c708af0e19eb8ed883c95d403986af">Fino Tequila Locations</a> in a full screen map</small></p>
+<p class="text-center"><iframe id="frame" src="//batchgeo.com/map/13c708af0e19eb8ed883c95d403986af" frameborder="0" width="100%" height="550" style="border:1px solid #aaa;"></iframe></p><p><small>View <a href="https://batchgeo.com/map/13c708af0e19eb8ed883c95d403986af">Fino Tequila Locations</a> in a full screen map</small></p>
 
 
 
@@ -57,7 +57,11 @@ a.header{
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <script type="text/javascript">
-  $('iframe').contents().find("img#bgLogo").css("display", "none");
+  $('#frame').contents().find(".header").css("display", "none");
 </script>
   </body>
 </html>
+
+
+
+
