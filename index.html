@@ -9,28 +9,36 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 <style type="text/css">
-  .place{
-    height: 80px;
-    width: 80%;
-    position: absolute;
-    left:0;
-    top:0;
-    z-index: 10000;
-    background:#333;
-  }
+.place1 {
+  background: #333;
+}
+.place2 {
+  background: transparent;
+}
+.container-fluid{
+  padding:0px!important;
+}
+.row{
+  padding:0px!important;
+}
+
+
 </style>
 
     <title>Fino Tequila Locations</title>
   </head>
   <body>
 
-    <div class="place">
-      <p class="text-left">
-        Find Fino Tequila
-      </p>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-10 place1"></div>
+          <div class="col-lg-2 place2">
+        </div>
+      </div>
     </div>
     
-<p><iframe src="//batchgeo.com/map/13c708af0e19eb8ed883c95d403986af" frameborder="0" width="100%" height="550" style="border:1px solid #aaa;"></iframe></p><p><small>View <a href="https://batchgeo.com/map/13c708af0e19eb8ed883c95d403986af">full screen map</a></small></p>
+<p><iframe src="//batchgeo.com/map/13c708af0e19eb8ed883c95d403986af" frameborder="0" width="100%" height="550" style="border:1px solid #aaa; background-color: #333;"></iframe></p>
 
 
 
@@ -46,13 +54,6 @@
   crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-    <script type="text/javascript">
-$('#frame').load( function() {
-    $('#frame').contents().find(".header")
-      .append($("<style type='text/css'>  .my-class{display:none;}  </style>"));
-});
-</script>
   </body>
 </html>
 
